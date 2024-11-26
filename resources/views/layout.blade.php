@@ -4,11 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Seo Meta-->
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <!--Seo Meta-->
     <title>Shopbanhang</title>
     <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/css/font-awesome.min.css') }}" rel="stylesheet">
@@ -17,10 +14,7 @@
     <link href="{{ asset('frontend/css/animate.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/css/main.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend/css/responsive.css') }}" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
+    
     <link rel="shortcut icon" href="{{ 'public/fontend/image/ico/favicon.ico' }}">
     <link rel="apple-touch-icon-precomposed" sizes="144x144"
         href="frontend/image/ico/apple-touch-icon-144-precomposed.png">
@@ -64,10 +58,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="logo pull-left">
-                            <a href="index.html"><img src="{{ 'frontend/image/logo.png' }}" width="100px"
-                                    alt="" /></a>
-                        </div>
                         <div class="btn-group pull-right">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-default dropdown-toggle usa"
